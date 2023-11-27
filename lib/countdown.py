@@ -6,6 +6,8 @@ def countdown(seconds):
         print(f'{seconds} SECOND(S)!')
         seconds -= 1
     print('HAPPY NEW YEAR!')
+    
+countdown(10)
 
 def countdown_with_sleep(seconds):
     while seconds > 0:
@@ -14,5 +16,5 @@ def countdown_with_sleep(seconds):
         seconds -= 1
     print('HAPPY NEW YEAR!')
 
-countdown(10)
+countdown_with_sleep(10)
 
